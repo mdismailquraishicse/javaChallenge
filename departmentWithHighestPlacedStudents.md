@@ -10,15 +10,15 @@ int cse,ece,mech;
 
 Scanner sc = new Scanner(System.in);
 
-System.out.println("Enter the no of students placed in CSE:");
+System.out.print("Enter the no of students placed in CSE:");
 
 cse=sc.nextInt();
 
-System.out.println("Enter the no of students placed in ECE:");
+System.out.print("Enter the no of students placed in ECE:");
 
 ece=sc.nextInt();
 
-System.out.println("Enter the no of students placed in MECH:");
+System.out.print("Enter the no of students placed in MECH:");
 
 mech=sc.nextInt();
 
@@ -61,7 +61,7 @@ System.out.println("Highest placement");
 System.out.println("CSE");
 
 System.out.println("ECE");
-
+return;
 }
 
 else
@@ -69,7 +69,7 @@ else
 System.out.println("Highest placement");
 
 System.out.println("MECH");
-
+return;
 }
 
 if(cse==mech)
@@ -85,7 +85,7 @@ System.out.println("Highest placement");
 System.out.println("CSE");
 
 System.out.println("MECH");
-
+return;
 }
 
 else
@@ -93,7 +93,7 @@ else
 System.out.println("Highest placement");
 
 System.out.println("ECE");
-
+return;
 }
 
 if(ece==mech)
@@ -109,7 +109,7 @@ System.out.println("Highest placement");
 System.out.println("ECE");
 
 System.out.println("MECH");
-
+return;
 }
 
 else
@@ -117,7 +117,7 @@ else
 System.out.println("Highest placement");
 
 System.out.println("CSE");
-
+return;
 }
 
 if(cse>ece)
@@ -131,7 +131,7 @@ if(cse>mech)
 System.out.println("Highest placement");
 
 System.out.println("CSE");
-
+return;
 }
 
 else
@@ -141,7 +141,7 @@ else
 System.out.println("Highest placement");
 
 System.out.println("MECH");
-
+return;
 }
 
 }
@@ -157,7 +157,7 @@ if(ece>mech)
 System.out.println("Highest placement");
 
 System.out.println("ECE");
-
+return;
 }
 
 else
@@ -167,7 +167,7 @@ else
 System.out.println("Highest placement");
 
 System.out.println("MECH");
-
+return;
 }
 
 }
